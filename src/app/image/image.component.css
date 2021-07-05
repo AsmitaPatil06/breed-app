@@ -1,0 +1,11 @@
+.section_img {
+    margin-left: 350px;
+    /* background-color: red; */
+}
+
+img,
+svg {
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+}

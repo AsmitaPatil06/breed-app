@@ -1,0 +1,11 @@
+<h2>BREEDS LIST</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <select class="form-select" aria-label="Default select example" class="form-control" formControlName="title">
+            <option selected>Open this select  breed</option>
+        <option *ngFor="let b of breedList"  >{{ b }}</option>
+        </select>
+    </div>
+    <button class="btn btn-primary" [disabled]="form.invalid">Submit</button>
+</form>

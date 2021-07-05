@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* css for header */
+
+.header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+.banner {
+    height: 550px;
+    width: 100%;
+    background-color: gray;
+    background-image: url(../assets/images/banner.jpg);
+    background-size: cover;
+}
+
+.overlay {
+    height: 655px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
